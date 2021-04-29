@@ -42,6 +42,13 @@ Ctrl+r => Rehacer una acción
 
 Además dee usar los cursores para movernos por el archivo, podemos movernos de una menra más rápida con algunos comandos:
 
+k => arriba
+
+j => abajo
+
+l => derecha
+
+h => izquierda
 
 gg => Ponerse al inicio del fichero.
 
@@ -100,3 +107,20 @@ cuando queramos salir tenemos que hacerlo como cualquier otro fichero. usando el
 syntax on 
 Otros editores de texto
 
+### Comandos de utilidad
+
+:set hls! => Activa/desactiva el resaltado de sintaxis
+
+:set nu! => activa/desactiva la numeracion de filas
+
+:set ai! => activa el autoidentado
+
+:set spell => activa correccion ortografica
+
+z=  => sigerir corrección
+
+:diffupdate => modo diferencias
+
+:compiler php => modo compilador
+
+:syn on => sintaxis automatica
