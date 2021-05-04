@@ -59,10 +59,15 @@ pass = MindFlyStudi2020MailServer
 ```
 
 
-##Base de datos
+## Base de datos
 ``` csharp
 ip/port = https://arvispace.com/phpmyadmin/
 user = arvisgame
 pass = arvisgame123456
 ```
 
+## Firebase
+``` csharp
+user = apps.dticonsultores@gmail.com
+pass = AppsDtiConsultores18
+```
