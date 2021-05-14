@@ -2,7 +2,7 @@
 ## conectar a la base de datos desde consola de IBM
 En los programas instalados buscar DB2 Command Window
 
-![](../Resources/db2/commandWindowdb2.png)
+![](../../Resources/db2/commandWindowdb2.jpg)
 
 A continuación, escriba el comando db2:
 ```
@@ -18,7 +18,7 @@ db2 => connect to books user db2admin
 ```
 Este comando nos permite conectarnos a la base de datos utilizando el usuario con la contraseña. Debe proporcionar la contraseña correcta pra el usuario Books db2admin db2admin.
 
-Aquií está la salida:
+Aquí está la salida:
 ```
 Database Connection Information
 
@@ -34,7 +34,7 @@ db2 => list tables
 
 Esta imagen miestra la salida:
 
-![](../Resources/db2/respuestaTables.png)
+![](../../Resources/db2/respuestaTables.png)
 
 para finalizar, salga de la sesión mediante el comando quit:
 ```
@@ -45,11 +45,11 @@ DB20000I  The QUIT command completed successfully.
 ## Conectar a la base de datos desde la consola de Windows.
 Navegamos a la dirección en donde tenemos la base instalada DB2.
 
-![](../Resources/db2/powershellDB2.png)!
+![](../../Resources/db2/powershellDB2.png)!
 
 nota: si escribimos ./db2.exe nos mostrará el siguiente error.
 
-![](../Resources/db2/errorDb2.png)
+![](../../Resources/db2/errorDb2.png)
 
 Para solucionar el problema ejecutamos el siguiente comando:
 ```
@@ -65,6 +65,6 @@ Escriba la contraseña actual de db2admin: ingresamos la contraseña
 db2 => list tables
 ```
 
-![](../Resources/db2/listablesPShell.png)
+![](../../Resources/db2/listablesPShell.png)
 
 Si deseamos cambiar de base de datos ejecutamos el primer comando pero con nombre de la base de datos.

@@ -19,7 +19,7 @@ ODI elimina la necesidad de un servdor ETL independiente y de motor de propietar
 ## Arquitectura de Componentes ODI
 La plataforma ODI se integra en la plataforma mas amplia Fusion Middleware y se convierte en un componente clave de esta pila. ODI proporciona sus componentes de tiempo de ejecición como aplicaciones JAVA EE mejoradas para aprovechar al maximo las capacidades del servidor de aplicaciones Oracle WebLogic.
 
-![](../../Resources/ODI%20Componets.png)![Arquitectura de componentes ODI](../../Resources/ODI%20Componets.png)
+![Arquitectura de componentes ODI](../../Resources/ODI%20Componets.png)
 
 
 ### Repositorios
@@ -43,7 +43,7 @@ Cuando el repositorio de trabajo contiene solo la información de ejecucion(norm
 ## Instalación de ODI
 
 ## Trabajar con proyecto ETL
-![](../../Resources/ejemplo%20de%20entorno.png)![Entorno](../../Resources/ejemplo%20de%20entorno.png)
+![Entorno](../../Resources/ejemplo%20de%20entorno.png)
 
    * El repositorio (the Repository): contiene todos los metadatos necesarios para los ejemplos de formación, está alojado, a estos efectos de evaluación, en una base de datos.
    * Solicutud de pedidos (Orders Application): Una aplicación para rastrear los pedidos de los clientes, alojada en una base de datos suministrada.
@@ -58,7 +58,7 @@ ODI Studio proporciona cuatro navegadores para gestionar los diferentes aspectos
     * los modelos de datos para sus aplicaciones contienen todos los metadatos de sus datos de servidores (Tablas, columnas, restricciones, descripciones, referencias cruzadas, etc.)
     * Los proyectos contiene todas las reglas de carga y transformacion para sus datos de servidores (Interfaces, procedimientos , viables, etc.).
     
-    ![](../../Resources/Diseño%20de%20navegacion.png)![Diseño de Navegación](../../Resources/Diseño%20de%20navegacion.png)
+ ![Diseño de Navegación](../../Resources/Diseno_navegacion.png)
     
 Designer Navigator tiene los siguientes acordeones:
 * Proyectos: contiene los desarrollos realizados con DEginer Navigator.
