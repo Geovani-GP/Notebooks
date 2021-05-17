@@ -5,21 +5,21 @@ Seleccionamos el sistema operativo y arquitectura, cabe mencionar que se necesit
 
 El archivo descargado es un .zip que contiene el software, descomprimimos el archivo, dentro de la carpeta extrauda encontraremos un ejecutable sqldeveloper, no es necesaria la instalación.
 
-![](sqlDeveloper.png)
+![](../../Resources/OracleDB/sqlDeveloper.png)
 
 El primer paso es crear una conexión.
 
 Damos click en el signo mas de color verde/Nueva conexión de bases de datos.
 
-![](conexionSQLDeveloper.png)
+![](../../Resources/OracleDB/conexionSQLDeveloper.png)
 
 Realizamos la conexion con la cuenta de ejemplo desbloqueada hr
 
-![](cnxionORa.png)
+![](../../Resources/OracleDB/cnxionORa.png)
 
 una vez realizada la conexión, podemos acceder mediante la conexion o en la parte superior seleccionando la conexión.
 
-![](Seleccion%20de%20conexion.png)
+![](../../Resources/OracleDB/Seleccion%20de%20conexion.png)
 
 Ejemplo y visualizacion de entorno
-![](ejemplo.png)
+![](../../Resources/OracleDB/ejemplo.png)
