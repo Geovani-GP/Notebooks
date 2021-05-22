@@ -35,8 +35,9 @@ Antes que nada, inmediatamente después de instalar Git, lo primero que debería
 lanzar un par de comandos de configuración.
 
 ```
-git config global user.name "Tu nombre aquí"
-git config global user.email "tu_email_aquí@example.com"
+git config --global user.name "Tu nombre aquí"
+git config --global user.email "tu_email_aquí@example.com"
+ ssh-keygen -t rsa -b 4096 -C "tu_email_aquí@example.com"
 ```
 
 Con estos comandos indicas tu nombre de usuario (usas tu nombre y apellidos generalmente) y
