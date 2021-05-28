@@ -23,3 +23,22 @@ Para enumerar todas las bases de datos de la instancia actual, utilice el comand
 db2 => list database directory
 ```
 
+Nos mostrará las bases de datos disponibles.
+
+## Crear tablas desde un archivo.
+```
+db2 -stvf d:\bookdb\create.sql
+```
+
+Despues, utizaremos el siguiente comando para ejecutar el script .sql datos para insertar datos en las tablas.
+
+```db2
+db2 -stvf d:\bookdb\data.sql
+```
+
+## Llenar datos desde un archivo.
+Por último, utilice el siguiente comando para comprobar si los datos se cargan correctamente:
+
+```
+db2 select count(*) author_count from authors
+```
