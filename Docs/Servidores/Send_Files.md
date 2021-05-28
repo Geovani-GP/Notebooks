@@ -4,13 +4,13 @@ SCP hace uso de SSH (Secure Shell) para hacer copias seguras y encriptadas.
 ## Uso de SCP
 Tenemos que tener claros los parámetros de los que consta la instrucción:
 
-'
+
 - Usuario: el nombre de usuarios que utilicemos en el servidor.
 - Host: dirección IP o dominio del servidor remoto.
 - Archivo origen: ruta del archivo que queremos copiar.
 - Directorio origen: ruta del directorio completo que queremos copiar.
 - Directorio destino: ruta donde queremos copiar el archivo.
-'
+
 
 ## COPIAR ARCHIVOS DE LOCAL A SERVIDOR
 Si queremos subir el archivo archivo.txt de nuestro ordenador a la carpeta /home/usuario del servidor, hacemos lo siguiente:
