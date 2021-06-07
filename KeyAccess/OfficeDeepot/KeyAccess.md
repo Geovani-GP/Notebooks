@@ -20,15 +20,21 @@ pass: RetailMX2020
 
 
 ## SFTP
-ip: 9.9.11.32
+aip: 9.9.11.32
 
+'
 User: xstore
+
 pass: HDp100%rp
+'
 
+'
 User: soaprod
-Pass: soporte2021
 
+Pass: soporte2021
+'
 Path: /home/soaprod/ftp/oracle/rms_inbound/store/RTLOG/
+
 Path: /home/xstore/GL_EXTRACT_FILEs
 
 
